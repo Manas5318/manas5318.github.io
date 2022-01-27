@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap');
+  *{  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bai Jamjuree", sans-serif;
+    
+}
+
+list, a, button{
+    
+    font-weight: 500;
+    font-size: 26px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 30px 10%;
+background-color: black;
+}
+body{
+    background-color: rgb(19, 17, 17);
+}
+p{
+    
+    font-weight: 500;
+    font-size: 26px;
+    color: #edf0f1;
+    text-decoration: none; 
+   margin-right: auto;
+}
+.navbar{
+    list-style: none;
+    position: relative;
+    
+}
+.navbar  li{
+    display: inline-block;
+    padding : 0px 20px;
+
+}
+.navbar li a:hover{
+    color: rgb(25, 0, 255);
+}
+.heading{
+    
+    color: white;
+    font-size: 100px;
+    text-align: left;
+    margin : 50px 30px;
+}
+.intro{
+    color: white;
+    font-size:50px;
+    text-align:justify;
+    margin:-5px 30px;
+}
+button{
+    background-color: rgb(19, 17, 17);
+    display: inline-block;
+    width: 500px;
+    height: 75px;
+    border-radius: 25px;
+    border-color: antiquewhite; 
+}
+button:hover{
+    background-color:rgb(25, 0, 255);
+}
+.img{
+    width:250px;
+    height:300px;
+    float: right;
+    margin:-10px 40px;
+}
+.hobbies{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin : 100px ;
+}
+.icons{
+    font-size: 100px;
+    display:inline-block ;
+    padding: 50px 100px;
+}
+.chess{
+    width: 400px;
+    height:400px;
+    margin: 50px 450px;
+    
+}
+.rickroll{
+    width: 400px;
+    height:400px;
+    margin: -50px 450px;
+}
+progress{
+    height: 100px;
+    width:700px;
+    margin: 0px 300px;
+   
+}
+
+
